@@ -62,11 +62,10 @@ async def vplay(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="cls"),
-            ],[
-                InlineKeyboardButton(text="✨ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+              [
+                InlineKeyboardButton(text="𝐀𝐧𝐣𝐞𝐥🍒",url=f"https://t.me/Godofanjelsupport"),
+                InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍭",url=f"https://t.me/Anjelupdates")
+                
             ]
         ]
     )
