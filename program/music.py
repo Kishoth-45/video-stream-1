@@ -57,7 +57,7 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="𝐀𝐍𝐉𝐄𝐋🍒",url=f"https://t.me/Godofanjelsupport"),
+                InlineKeyboardButton(text="𝐀𝐧𝐣𝐞𝐥🍒",url=f"https://t.me/Godofanjelsupport"),
                 InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍃",url=f"https://t.me/Anjelupdates")
                 
             ]
@@ -154,7 +154,7 @@ async def play(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"🧨 **music streaming started.**\n\n🏷 **Name:** [{songname}]({link})\n☘️ **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎻 **Request by:** {requester}",
+                    caption=f" **Anjel music started 🧨.**\n\n🏷 **Name:** [{songname}]({link})\n🍁 **Chat:** `{chat_id}`\n🍒 **Status:** `Playing`\n🎻 **Request by:** {requester}",
                     reply_markup=keyboard,
                 )
         else:
