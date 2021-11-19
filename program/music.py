@@ -58,7 +58,7 @@ async def play(c: Client, m: Message):
         [
             [
                 InlineKeyboardButton(text="𝐀𝐧𝐣𝐞𝐥🍒",url=f"https://t.me/Godofanjelsupport"),
-                InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍃",url=f"https://t.me/Anjelupdates")
+                InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍭",url=f"https://t.me/Anjelupdates")
                 
             ]
         ]
