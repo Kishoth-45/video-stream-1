@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/VeezVideoBot"><img src="https://github.com/levina-lab/video-stream/raw/main/driver/veezlogo.png"></a></p>
+<p align="center"><a href="https://t.me/VeezVideoBot"><img src="https://github.com/Kishoth-45/video-stream-1/raw/main/driver/veezlogo.png"></a></p>
 <p align="center">
     <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
@@ -14,7 +14,7 @@
 </p>
 
 ## 📊 Stats
-[![CodeFactor](https://www.codefactor.io/repository/github/levina-lab/video-stream/badge)](https://www.codefactor.io/repository/github/levina-lab/video-stream)
+[![CodeFactor](https://www.codefactor.io/repository/github/Kishoth-45/video-stream-1/badge)](https://www.codefactor.io/repository/github/Kishoth-45/video-stream-1)
 
 ## 🧪 Get `SESSION_NAME` from below:
 
@@ -63,7 +63,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kishoth-45/video-stream-1)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
