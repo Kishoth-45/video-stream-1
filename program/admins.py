@@ -38,7 +38,7 @@ async def update_admin(client, message):
     )
 
 
-@Client.on_message(command(["skip", f"skip@{BOT_USERNAME}", "vskip"]) & other_filters)
+@Client.on_message(command(["mskip", f"skip@{BOT_USERNAME}", "vskip"]) & other_filters)
 @authorized_users_only
 async def skip(client, m: Message):
 
@@ -89,11 +89,11 @@ async def skip(client, m: Message):
 
 
 @Client.on_message(
-    command(["stop", f"stop@{BOT_USERNAME}", "end", f"end@{BOT_USERNAME}", "vstop"])
+    command(["mstop", f"mstop@{BOT_USERNAME}", "end", f"end@{BOT_USERNAME}", "vstop"])
     & other_filters
 )
 @authorized_users_only
-async def stop(client, m: Message):
+async def mstop(client, m: Message):
     chat_id = m.chat.id
     if chat_id in QUEUE:
         try:
@@ -143,10 +143,10 @@ async def resume(client, m: Message):
 
 
 @Client.on_message(
-    command(["mute", f"mute@{BOT_USERNAME}", "vmute"]) & other_filters
+    command(["mmute", f"mmute@{BOT_USERNAME}", "vmute"]) & other_filters
 )
 @authorized_users_only
-async def mute(client, m: Message):
+async def mmute(client, m: Message):
     chat_id = m.chat.id
     if chat_id in QUEUE:
         try:
